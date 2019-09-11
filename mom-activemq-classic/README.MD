@@ -1,4 +1,4 @@
-# ActiveMQ Classic
+# ActiveMQ Classic Client
 
 Pro:
 * Support to JMS 1.1.
