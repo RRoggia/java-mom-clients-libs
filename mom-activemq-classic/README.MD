@@ -3,7 +3,7 @@
 Pro:
 * Support to JMS 1.1.
 * Supports connections using `tcp`, `ssl`, `nio`, `nio+ssl`.
-* Can be used as client for aws service [amazon mq](https://aws.amazon.com/pt/amazon-mq/).
+* Default client option for ActiveMQ Classic, and therefore, for the aws service [amazon mq](https://aws.amazon.com/pt/amazon-mq/).
 * [Open Source](https://github.com/apache/activemq/tree/master/activemq-client)
 
 Cons:
