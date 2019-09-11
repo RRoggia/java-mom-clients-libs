@@ -1,5 +1,12 @@
 # ActiveMQ Classic
 
+Pro:
+* Support to JMS 1.1.
+
+Cons:
+* It don't have support to JMS 2.0
+
+# Implementation
 ## ActiveMQConnectionFactory
 `ActiveMQConnectionFactory` implements the JMS interfaces `ConnectionFactory`, `QueueConnectionFactory` and `TopicConnectionFactory`. Which enables it to create any type of connections.
 
