@@ -2,6 +2,8 @@
 
 Pro:
 * Support to JMS 1.1.
+* Can be used as client for aws service [amazon mq](https://aws.amazon.com/pt/amazon-mq/).
+* [Open Source](https://github.com/apache/activemq/tree/master/activemq-client)
 
 Cons:
 * It don't have support to JMS 2.0
