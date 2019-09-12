@@ -8,6 +8,7 @@ Pro:
 
 Cons:
 * It don't have support to JMS 2.0
+* Requires extensions (Qpid Proton) to support other protocols such `amqp`.
 
 # Scenario
 ![activemq client using tcp and activemq](https://github.wdf.sap.corp/raw/I840973/java-mom-client/master/mom-activemq-classic/activemq-client.jpg)
