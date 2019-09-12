@@ -2,20 +2,21 @@ package com.rroggia.activemq.p2p;
 
 import javax.jms.ConnectionFactory;
 
-import org.apache.qpid.jms.JmsConnectionFactory;
+import org.apache.activemq.ActiveMQConnectionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import org.springframework.jms.annotation.EnableJms;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 
+@Profile("activemq")
 @Configuration
 @EnableJms
-public class MOMConfig {
+public class ActiveMQConfig {
 
 	@Bean
 	public ConnectionFactory getConnectionFactory() {
-		JmsConnectionFactory connectionFactory = new JmsConnectionFactory();
-		return connectionFactory;
+		return new ActiveMQConnectionFactory();
 	}
 
 	@Bean

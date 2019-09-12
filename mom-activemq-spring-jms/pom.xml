@@ -26,10 +26,18 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
+		<!-- We provide two JMS implementations that support different protocols, 
+			you may choose it based on profiles, you may also delete one and stick to 
+			your choice -->
 		<dependency>
 			<groupId>org.apache.qpid</groupId>
 			<artifactId>qpid-jms-client</artifactId>
 			<version>0.45.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-client</artifactId>
 		</dependency>
 
 		<dependency>
