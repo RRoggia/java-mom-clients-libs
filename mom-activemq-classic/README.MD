@@ -9,6 +9,9 @@ Pro:
 Cons:
 * It don't have support to JMS 2.0
 
+# Scenario
+![activemq client using tcp and activemq](https://github.wdf.sap.corp/raw/I840973/java-mom-client/master/mom-activemq-classic/activemq-client.jpg)
+
 # Implementation
 ## ActiveMQConnectionFactory
 `ActiveMQConnectionFactory` implements the JMS interfaces `ConnectionFactory`, `QueueConnectionFactory` and `TopicConnectionFactory`. Which enables it to create any type of connections.
