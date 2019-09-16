@@ -1,4 +1,4 @@
-package com.rroggia.activemq.p2p;
+package com.rroggia.jms.p2p;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

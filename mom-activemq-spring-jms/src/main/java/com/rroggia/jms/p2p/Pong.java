@@ -1,4 +1,4 @@
-package com.rroggia.activemq.p2p;
+package com.rroggia.jms.p2p;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
