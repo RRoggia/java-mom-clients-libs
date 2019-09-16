@@ -1,15 +1,22 @@
 # Comparsion of Message Oriented Middleware's Java Client libraries
 Comparsion of Message Oriented Middleware's Java Client libraries
 
-### Active MQ Classic (Amazon MQ)
+## P2P Example - Ping and Pong
+* `Application` - Injects the JMS implementation through the `ConnectionFactory`.
+* `Ping` - Listens to the `p2p-ping` queue, prints `ping` and sends a message to `p2p-pong`.
+* `Pong` - Listens to the `p2p-pong` queue, prints `pong` and sends a message to `p2p-ping`.
+
+### JMS Implementations 
+#### Using ActiveMQ Classic
 * [Active MQ Client through TCP](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-activemq-classic)
 * [Apache Qpid JMS Client through AMQP 1.0](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-activemq-qpid)
 
-### RabbitMQ 
-* [RabbitMQ JMS Client]()
+#### Using RabbitMQ 
+* [RabbitMQ JMS Client through AMQP(version??)](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-rabbitmq-jms)
 
-### Spring JMS
-*[Spring JMS connecting with ActiveMQ or RabbitMQ through AMQP or TCP]()
+### Spring JMS Implementation
+p.s. JMS implementations still required, any of the above.
+* [Spring JMS connecting with ActiveMQ or RabbitMQ through AMQP or TCP](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-spring-jms)
 
 ## Notes
 
