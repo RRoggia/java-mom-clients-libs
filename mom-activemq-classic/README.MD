@@ -1,5 +1,7 @@
 # ActiveMQ Classic Client
 
+This application requires the ActiveMQ Classic broker running the `tcp` protocol in the `localhost:61616` port.
+
 Pro:
 * Support to JMS 1.1.
 * Supports connections using `tcp`, `ssl`, `nio`, `nio+ssl`.
