@@ -6,7 +6,7 @@ import javax.jms.JMSException;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
-public class Application {
+public class PingPongApplication {
 	private static final String TCP_CONNECTION_WITH_TIMEOUT = "tcp://localhost:61616?connectionTimeout=1000";
 
 	public static void main(String[] args) {
