@@ -6,6 +6,8 @@ Comparsion of Message Oriented Middleware's Java Client libraries
 * `Ping` - Listens to the `p2p-ping` queue, prints `ping` and sends a message to `p2p-pong`.
 * `Pong` - Listens to the `p2p-pong` queue, prints `pong` and sends a message to `p2p-ping`.
 
+![Ping pong](https://github.wdf.sap.corp/raw/I840973/java-mom-client/master/ping-pong.png)
+
 ### JMS Implementations 
 #### Using ActiveMQ Classic
 * [Active MQ Client through TCP](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-activemq-classic)
