@@ -218,15 +218,3 @@ An acknowledgement is a formal signal from the client application to a message q
 
 1. automatic: server removes content from a message queue as soon it delivers it to an application
 2. explicit: the client application must send an Ack method for each message
-
-
-
-
-
-
-
-
-
-
-
-https://github.wdf.sap.corp/TaaS/tax-engine-router/wiki/RabbitMQ
