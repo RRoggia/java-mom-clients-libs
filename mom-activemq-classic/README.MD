@@ -14,7 +14,7 @@ Cons:
 * Active MQ Classic Version `5.x` will be replaced by the `6.x` as soon Active MQ Artemis fulfills their roadmap.
 
 # Scenario
-![activemq client using tcp and activemq](https://github.wdf.sap.corp/raw/I840973/java-mom-client/master/mom-activemq-classic/activemq-client.jpg)
+![activemq client using tcp and activemq](./activemq-client.jpg)
 
 # Implementation
 ## ActiveMQConnectionFactory

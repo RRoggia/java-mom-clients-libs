@@ -62,7 +62,7 @@ from:
 
 # General Architecture
 
-![AMQ Model](./amq-model.png)
+![AMQ Model](./diagrams/amq-model.png)
 
 A middleware server: it is a data server that accepts messages and does two
 main things with them:

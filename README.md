@@ -5,7 +5,7 @@ Comparsion of Message Oriented Middleware's Java Client libraries
 * `Ping` - Listens to the `p2p-ping` queue, prints `ping` and sends a message to `p2p-pong`.
 * `Pong` - Listens to the `p2p-pong` queue, prints `pong` and sends a message to `p2p-ping`.
 
-![Ping pong](https://github.wdf.sap.corp/raw/I840973/java-mom-client/master/ping-pong.png)
+![Ping pong](./diagrams/ping-pong.png)
 
 ### JMS Implementations 
 #### Using ActiveMQ Classic
@@ -19,15 +19,28 @@ Comparsion of Message Oriented Middleware's Java Client libraries
 p.s. JMS implementations still required, any of the above.
 * [Spring JMS connecting with ActiveMQ or RabbitMQ through AMQP or TCP](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-spring-jms)
 
+### AMQP 0.9.1 Implementations
+
+#### Using RabbitMQ
+
+* 2 Direct exchange with queue
+
 ## Pub/Sub Example - Horse Race
 * `RaceStarter` - Publishes to the `pubsub-start-race`.
 * `Appaloosa`, `Thoroughbred`, `PaintHorse` - Subscribes to `pubsub-start-race` when created. Prints when receives the message notification.
 
-![Horse race](https://github.wdf.sap.corp/raw/I840973/java-mom-client/master/horse-race.png)
+![Horse race](./diagrams/horse-race.png)
 
 ### JMS Implementations 
 #### Using ActiveMQ Classic
 * [Active MQ Client through TCP](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-activemq-classic)
+
+### AMQP 0.9.1 Implementations
+
+#### Using RabbitMQ
+
+- Topic exchange with matching route
+- fanout exchange
 
 ## Notes
 

@@ -11,4 +11,4 @@ Cons:
 
 
 # Scenario
-![spring jms using apache active mq client or apache qpid client](https://github.wdf.sap.corp/raw/I840973/java-mom-client/master/mom-spring-jms/spring-jms-client.png)
+![spring jms using apache active mq client or apache qpid client](./spring-jms-client.png)
