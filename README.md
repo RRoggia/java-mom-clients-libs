@@ -9,15 +9,15 @@ Comparsion of Message Oriented Middleware's Java Client libraries
 
 ### JMS Implementations 
 #### Using ActiveMQ Classic
-* [Active MQ Client through TCP](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-activemq-classic)
-* [Apache Qpid JMS Client through AMQP 1.0](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-activemq-qpid)
+* [Active MQ Client through TCP](./mom-activemq-classic)
+* [Apache Qpid JMS Client through AMQP 1.0](./mom-activemq-qpid)
 
 #### Using RabbitMQ 
-* [RabbitMQ JMS Client through AMQP(version??)](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-rabbitmq-jms)
+* [RabbitMQ JMS Client through AMQP(version??)](./mom-rabbitmq-jms)
 
 ### Spring JMS Implementation
 p.s. JMS implementations still required, any of the above.
-* [Spring JMS connecting with ActiveMQ or RabbitMQ through AMQP or TCP](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-spring-jms)
+* [Spring JMS connecting with ActiveMQ or RabbitMQ through AMQP or TCP](./mom-spring-jms)
 
 ### AMQP 0.9.1 Implementations
 
@@ -33,7 +33,7 @@ p.s. JMS implementations still required, any of the above.
 
 ### JMS Implementations 
 #### Using ActiveMQ Classic
-* [Active MQ Client through TCP](https://github.wdf.sap.corp/I840973/java-mom-client/tree/master/mom-activemq-classic)
+* [Active MQ Client through TCP](./mom-activemq-classic)
 
 ### AMQP 0.9.1 Implementations
 
